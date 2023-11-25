@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/*Reseting the default padding and  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* General styling like font family */
+html{
+    font-family: "Roboto";
+}
+
+/* Styling the background */
+.todo-bg-container{
+    background-color: #f9fbfe;
+    height: 100vh;
+}
+/* Styling the heading */
+.todo-heading{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+/* Styling the create task heading */
+.create-task-heading {
+    font-size: 2rem;
+    font-weight: 700;
+}
+/* styling the create task heading subpart */
+.create-task-heading-subpart {
+    font-size: 2rem;
+    font-weight: 500;
+}
+/* Styling the input element */
+.todo-user-input{
+    background-color: whitesmoke;
+    width: 100%;
+    border: 1px solid #e4e7eb;
+    border-radius: 10px;
+    padding: 15px;
+}
+/* Styling the buttons */
+.add-todo-button{
+    color: white;
+    background-color: #4c63b6;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    transition: transform ease(1.1);
+}
+/* styling the button when hover over it */
+.add-todo-button:hover{
+    background-color: hsl(227, 53%, 37%);
+    border: 2px solid rgb(5, 5, 5);
+    color: white;
+}
+
+/* Styling the creating task heading */
+.todo-item-heading{
+    font-size: 2rem;
+    font-weight: 700;
+}
+/* Styling the todo item heading subpart */
+.todo-item-heading-subpart{
+    font-size: 2rem;
+    font-weight: 500;
+}
+/* Styling the Todo item list container */
+.todo-items-container{
+    margin-top: 20px;
+    background-color: #e0e5ec;
+}
+/* Styling the item container */
+.todo-item-container{
+    margin-top: 15px;
+    padding: 10px;
+}
+/* Styling the checkbox */
+.checkbox-input{
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+}
+/* Styling the checkbox label container */
+.label-container{
+    background-color: #e6f6ff;
+    width: 100%;
+    border: 5px solid #096f92;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+/* Styling the checkbox label */
+.checkbox-label{
+    font-size: 1rem;
+    font-weight: 400;
+    width: 80%;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+/* Styling the delete icon container */
+.delete-icon-container{
+    text-align: right;
+    width: 20%;
+}
+.delete-icon{
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.delete-icon:hover{
+    transform: scale(1.04);
+}
+
+/* Styling the label to be strike throug */
+.checked{
+    text-decoration: line-through;
+}

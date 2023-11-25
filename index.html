@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <!-- linking the local bootstrap -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- linking the external css file -->
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <!-- Linking the Java Script file -->
+    <script defer src="./js/main.js"></script>
+    <!-- linking the font awesome icon -->
+    <script src="https://kit.fontawesome.com/7fb2d80710.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="todo-bg-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="todo-heading mt-3 mb-3">Todo List</h1>
+                    <h1 class="create-task-heading">
+                        Create <span class="create-task-heading-subpart">Task</span>
+                    </h1>
+                    <input type="text" name="UserInput" id="userInput" placeholder="Enter your task here!" class="todo-user-input">
+                    <button class="add-todo-button btn" id="addTodoButton">
+                        add
+                    </button>
+                    <h1 class="todo-item-heading">
+                        My <span class="todo-item-heading-subpart">Tasks</span>
+                    </h1>
+                    <ul class="todo-items-container shadow" id="todoItemsContainer">
+                        
+                    </ul>
+                    <button class="add-todo-button btn" id="saveTodoButton">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
